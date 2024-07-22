@@ -22,6 +22,12 @@ By setting these constraints, signal aims to offer a streamlined and distraction
 
 ## Running the Application in a Container
 
+Use container image published on <https://github.com/phoracek/signal-midi-sequencer>:
+
+```sh
+podman run --network=host --name=signal ghcr.io/phoracek/signal:latest
+```
+
 Alternatively, build the container from these sources:
 
 ```sh
