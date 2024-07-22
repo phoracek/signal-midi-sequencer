@@ -20,6 +20,15 @@ signal is conceptualized not as a replacement for a Digital Audio Workstation (D
 
 By setting these constraints, signal aims to offer a streamlined and distraction-free environment, ideal for artists focusing on the core aspects of musical composition and idea development.
 
+## Running the Application in a Container
+
+Alternatively, build the container from these sources:
+
+```sh
+podman build -t signal .
+podman run --network=host signal
+```
+
 ## Setup Instructions
 
 ### Cloning the Repository
